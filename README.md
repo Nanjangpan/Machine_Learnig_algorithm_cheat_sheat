@@ -1,0 +1,2 @@
+# Machine_Learnig_algorithm_cheat_sheat
+Machine_Learnig_algorithm_cheat_sheat python code
