@@ -116,6 +116,10 @@ elif choose == "Y":
                     print("----------------------------------------------------------")
                     print("KMeans")
                     print("----------------------------------------------------------")
+                    f = open("./Kmeans.py", "w")
+                    code = "#Import Library\nfrom sklearn.cluster import Kmeans\n#Assumed you have, X for training data set\n#and x_test of test_dataset\n#Create KNeighbors classifier object model\nk_means = KMeans(n_clusters=3, random_stat=0)\n#Train the model using the training sets and check score\nmodel.fit(X)\n#predict output\npredicted = model.predict(x_test)"
+                    f.write(code)
+                    f.close()
                     print("")
                     choose = input("If it doesn't work, press Y. ")
                     if choose == "Y":
